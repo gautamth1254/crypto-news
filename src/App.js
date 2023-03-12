@@ -8,22 +8,15 @@ import { makeStyles } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({  // make a call back in inside it make a classes
       App : {
-        backgroundColor : 'red',
+        backgroundColor : '#803DCD',
         color: 'white',
         minHeight:"100vh", 
       },
     }));
-
-
 function App() {
   
-
-    
-
     const classes = useStyles()
-
     return (
-
    <BrowserRouter>
       <div className={classes.App}>
         <Header/>
